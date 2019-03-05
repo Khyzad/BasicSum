@@ -135,12 +135,7 @@ public class Calculator {
                 answer = 0;
         }
 
-        if(!isDouble){
-            operands[0] = (int)answer + "";
-        }else{
-            operands[0] = answer + "";
-        }
-
+        operands[0] = isDouble ? answer + "" : (int)answer + "";
         operands[1] = "";
         operator = "";
         i = 1;
