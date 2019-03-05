@@ -8,4 +8,6 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <dimen name="button_width">70dp</dimen>
+    <dimen name="button_height">37dp</dimen>
 </resources>
