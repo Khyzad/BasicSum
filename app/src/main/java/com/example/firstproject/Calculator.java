@@ -54,10 +54,6 @@ public class Calculator {
         return Double.parseDouble(value);
     }
 
-    private double parseInteger(String value){
-        return Integer.parseInt(value);
-    }
-
     private void operate(String value){
         if(operands[1].length() > 0) {
             equal();
