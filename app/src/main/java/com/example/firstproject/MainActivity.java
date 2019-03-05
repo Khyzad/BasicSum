@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
             operate(value);
 
-            operator = "+";
+            operator = Buttons.btnPlus.Value;
             this._TextView.append(operator);
         }
 
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
 
             operate(value);
 
-            operator = "-";
+            operator = Buttons.btnMinus.Value;
             this._TextView.append(operator);
         }
 
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
 
             operate(value);
 
-            operator = "*";
+            operator = Buttons.btnMultiply.Value;
             this._TextView.append(operator);
         }
 
@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
 
             operate(value);
 
-            operator = "/";
+            operator = Buttons.btnDivide.Value;
             this._TextView.append(operator);
         }
 
@@ -171,7 +171,6 @@ public class MainActivity extends AppCompatActivity {
             }else{
                 operands[0] = answer + "";
             }
-
 
             operands[1] = "";
             operator = "";
